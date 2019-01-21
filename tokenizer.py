@@ -17,7 +17,7 @@ BUILTIN_WORDS = ['and', 'break', 'do', 'else', 'elseif', 'end',
                  'local', 'nil', 'not', 'or', 'repeat', 'return',
                  'then', 'true', 'until', 'while', 'continue']  # 'continue' only in gLua
 
-GM_WORDS = ['ENT', 'WEAPON', 'SWEP', 'GAMEMODE']
+GM_WORDS = ['ENT', 'WEAPON', 'SWEP', 'GAMEMODE', 'TOOL', 'SANDBOX', 'EFFECT']
 
 RESERVED_WORDS = BUILTIN_WORDS + GM_WORDS
 

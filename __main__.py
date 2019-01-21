@@ -21,9 +21,9 @@ VERSION_DATE = time.strftime("%b %d, %Y @ %I:%M %p", time.localtime(os.path.getm
 print("Version: {0} (Updated on {1})".format(VERSION, VERSION_DATE))
 
 
+
 in_file = "input.lua"
 out_file = "output.lua"
-decrypt_file = "__decrypt.lua"
 global_file = "globals.json"
 dontcopy = False
 debug_mode = False
